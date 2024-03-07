@@ -19,7 +19,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains.combine_documents import create_stuff_documents_chain
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 
 # Function to get the OpenAI API key from the user through a modal
 def no_ingest_docs():
